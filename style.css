@@ -34,3 +34,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+#contact { 
+	margin: auto;
+	border: 2px solid;
+	padding: 30px; 
+	width: 400px;
+	resize: vertical;
+	overflow: auto;
+}
+
+	
