@@ -43,18 +43,26 @@ li a:hover {
     overflow: auto;
 }
 
-p.title{
-    text-align:center;
-    color:white;
-    font-size:180%;
+p.title {
+    text-align: center;
+    color: white;
+    font-size: 180%;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    line-height: 0.1em;
+}
+
+p span {
+    background: black;
+    padding: 0 10px;
 }
 
 p.secondTitle {
-    color:white;
-    font-size:150%;
+    color: white;
+    font-size: 150%;
 }
 
 p.answer {
-    color:white;
-    font-size:120%;
+    color: white;
+    font-size: 120%;
 }
